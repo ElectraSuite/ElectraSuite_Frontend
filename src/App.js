@@ -4,7 +4,7 @@ import './App.css';
 import Map from './Components/Map';
 import Accordian from './Components/Accordian';
 import { useEffect, useState } from 'react';
-import Output from './Components/Output';
+import './App.css'
 
 
 
@@ -46,14 +46,13 @@ function App() {
   
   // }
   const [c,sc]=useState([]);
-  const [u,su]=useState("phasorplot");
+  const [u,su]=useState("Electra-Suite");
   return (
     <div style={{display:"flex"}}>
 
      <Accordian c={c} sc={sc} u={u} su={su}/>
     
      <Map c={c} u={u}/>
-      <Output/>
       </div>
     
   );

@@ -1,0 +1,62 @@
+.screen{
+    width: 100%;
+    display: flex;
+}
+
+.output{
+    font-size: 20px;
+    display: block;
+    margin: 2rem;
+    height: 90vh;
+    box-sizing: border-box;
+    background-color: antiquewhite;
+    border: 3px;
+    padding: 2rem;
+    border-radius: 10%;
+    border-color: black;
+    border-style: solid;
+}
+
+.output-container{
+    width: 100%;
+    border-left: solid black;
+    position: sticky
+}
+
+.input-container{
+    width: 100%;
+    padding: 2rem;
+}
+
+.accordian-item{
+    padding: 1rem;
+    padding-left: 10px;
+    border-style: solid;
+    border-width: 1px 0px 0px 0px;
+
+}
+
+.accordian-button{
+    background-color: transparent;
+    font-size: large;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+}
+
+.generate-output-button{
+    color: white;
+    background-color:#4B7AF1;
+    font-size:22px;
+    padding:10px; 
+    padding-inline:25px;
+    border:none;
+    cursor:"pointer";
+}
+
+.generate-output-button:active{
+    background-color: rgb(255, 252, 238);
+    color: #4B7AF1;
+}
